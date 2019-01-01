@@ -935,7 +935,8 @@ body {
   height: 80%;
   background: #428bca;
 }
-.skill-level .skill-progress.master {
+.skill-level .skill-progress.master,
+.skill-level .skill-progress.expert {
   height: 95%;
   background: #5cb85c;
 }

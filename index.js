@@ -110,7 +110,7 @@ function render(resume) {
     });
 
     _.each(resume.skills, function(skill_info) {
-        var levels = ['Beginner', 'Intermediate', 'Advanced', 'Master'];
+        var levels = ['Beginner', 'Intermediate', 'Advanced', 'Master', 'Expert'];
 
         if (skill_info.level) {
             skill_info.skill_class = skill_info.level.toLowerCase();
